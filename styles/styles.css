@@ -1,6 +1,12 @@
 :root{
     --primary-color: hsl(30, 38%, 92%);
     --secondary-color: hsl(158, 36%, 37%);
+    --neutral-blue: hsl(212, 21%, 14%);
+    --neutral-gray: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    --font-body: 'Montserrat', sans-serif;
+    --font-title: 'Fraunces', serif;
 }
 
 *{
@@ -16,6 +22,8 @@ html{
 
 body{
     background-color: var(--primary-color);
+    font-family: var(--font-body);
+    color: var(--neutral-gray);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +56,13 @@ body{
 }
 
 .main__aside{
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.main__title{
+    font-family: var(--font-title);
+    color: var(--neutral-blue);
+    font-size: 3.2rem;
 }
 
 .main__header, .main__title, .main__paragraph, .main__prices, .main__button{
@@ -57,4 +71,10 @@ body{
 
 .prices__actual, .prices__original {
     display: inline-block;
+}
+
+.prices__actual{
+    font-family: var(--font-title);
+    color: var(--secondary-color);
+    font-size: 3rem;
 }
