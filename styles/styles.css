@@ -1,0 +1,60 @@
+:root{
+    --primary-color: hsl(30, 38%, 92%);
+    --secondary-color: hsl(158, 36%, 37%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.main{
+    width: 90%;
+    max-width: 400px;
+    outline: var(--primary-color) solid 0.4rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.main__picture{
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main__picture img{
+    width: 100%;    
+}
+
+.aside{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__aside{
+    padding: 1rem;
+}
+
+.main__header, .main__title, .main__paragraph, .main__prices, .main__button{
+    padding-top: 1rem;
+}
+
+.prices__actual, .prices__original {
+    display: inline-block;
+}
