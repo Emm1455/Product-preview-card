@@ -31,7 +31,7 @@ body{
 }
 
 .main{
-    width: 90%;
+    width: 92%;
     max-width: 400px;
     outline: var(--primary-color) solid 0.4rem;
     border-radius: 1rem;
@@ -56,13 +56,14 @@ body{
 }
 
 .main__aside{
-    padding: 2.5rem;
+    padding: 2.4rem;
 }
 
 .main__title{
     font-family: var(--font-title);
     color: var(--neutral-blue);
     font-size: 3.2rem;
+    line-height: 1;
 }
 
 .main__header, .main__title, .main__paragraph, .main__prices{
@@ -72,12 +73,22 @@ body{
 .main__header{
     padding-top: 0;
     letter-spacing: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.main__paragraph{
+    padding-top: 1.4rem;
+    line-height: 1.6;
 }
 
 .prices{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.main__prices{
+    padding-top: 2rem;
 }
 
 .prices__actual{
@@ -98,8 +109,18 @@ body{
 }
 
 .main__button{
-    padding: 1rem 0;
-    margin: 1rem 0;
+    padding: 1.2rem 0;
+    margin-top: 1.4rem;
     border-radius: 0.8rem;
     border: var(--secondary-color) solid 0.2rem;
+}
+
+.button__icon{
+    font-size: 1.6rem;
+    padding-right: 0.4rem;
+}
+
+.button:active{
+    background-color: hsl(158, 36%, 17%);
+    border-color: hsl(158, 36%, 17%);
 }
