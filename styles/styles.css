@@ -24,6 +24,8 @@ body{
     background-color: var(--primary-color);
     font-family: var(--font-body);
     color: var(--neutral-gray);
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +39,6 @@ body{
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    margin: 3rem 0;
 }
 
 .main__picture{
@@ -45,7 +46,8 @@ body{
 }
 
 .main__picture img{
-    width: 100%;    
+    width: 100%; 
+    height: 100%;   
 }
 
 .aside{
@@ -53,6 +55,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .main__aside{
@@ -66,7 +69,7 @@ body{
     line-height: 1;
 }
 
-.main__header, .main__title, .main__paragraph, .main__prices{
+.main__header, .main__title, .main__paragraph {
     padding-top: 1rem;
 }
 
