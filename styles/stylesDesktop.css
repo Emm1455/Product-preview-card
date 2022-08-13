@@ -1,0 +1,18 @@
+.main{
+    width: 50%;
+    max-width: 600px;
+    height: 60%;
+    flex-direction: row;
+}
+
+.main__picture{
+    width: 50%;
+}
+
+.aside{
+    width: 50%;
+}
+
+.main__aside{
+    padding: 0 3rem;
+}
