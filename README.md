@@ -30,6 +30,7 @@ Users should be able to:
 <picture>
     <img src="https://i.imgur.com/W7aCa4U.png" width= "375px" alt="mobile view">
 </picture>
+<br>
 **Desktop view** <br>
 <picture>
     <img src="https://i.imgur.com/75hDBzr.png" width= "100%" alt= "Desktop view">
