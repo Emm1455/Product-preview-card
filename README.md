@@ -26,13 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-**Mobile view**
+**Mobile view** <br>
 <picture>
-    <img src="https://i.imgur.com/W7aCa4U.png" width= "50%" alt="mobile view">
+    <img src="https://i.imgur.com/W7aCa4U.png" width= "375px" alt="mobile view">
 </picture>
-**Desktop view**
+<br>
+**Desktop view** <br>
 <picture>
-    <img src="https://i.imgur.com/75hDBzr.png" width= "90%" alt= "Desktop view">
+    <img src="https://i.imgur.com/75hDBzr.png" width= "100%" alt= "Desktop view">
 </picture>
 
 ### Links
