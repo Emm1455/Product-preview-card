@@ -36,15 +36,11 @@ body{
     width: 92%;
     max-width: 400px;
     height: 92%;
-    outline: var(--primary-color) solid 0.4rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
-}
-
-.main__picture{
-    background-color: hsl(0, 0%, 100%);
+    overflow: hidden;
 }
 
 .main__picture img{
@@ -103,6 +99,9 @@ body{
     background-color: var(--secondary-color);
     color: var(--white);
     font-family: var(--font-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main__button{
@@ -111,9 +110,8 @@ body{
     border: var(--secondary-color) solid 0.2rem;
 }
 
-.button__icon{
-    font-size: 1.6rem;
-    padding-right: 0.4rem;
+.button img{
+    padding-right: 1rem;
 }
 
 .button:active{
