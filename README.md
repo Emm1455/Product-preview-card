@@ -82,4 +82,4 @@ I want to improve my BEM methodology understanding and star to use css pre-proce
 
 - Frontend Mentor - [@Emm1455](https://www.frontendmentor.io/profile/Emm1455)
 - Twitter - [@EmmE117](https://www.twitter.com/EmmE117)
-- Linkedin - [Emmanuel Mercado Luna](https://www.linkedin.com/in/emmanuel-mercado-luna-780a92226/)
+- Linkedin - [Emmanuel Mercado Luna](https://www.linkedin.com/in/emmanuel-mercado-luna/)
